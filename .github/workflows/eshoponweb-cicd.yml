@@ -6,10 +6,10 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-devops-challenge
-  LOCATION: eastus
+  LOCATION: westus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: a66a5d08-377b-4808-a614-f26ed1a13ec2
-  WEBAPP-NAME: az400-webapp-viashima-devops-challenge
+  WEBAPP-NAME: az400-webapp-viashima
 
 
 jobs:
